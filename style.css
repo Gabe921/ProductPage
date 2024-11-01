@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.intro {
+    margin:40px auto 40px auto;
+    display: flex;
+    width:500px;
+    justify-content: center;
+    border:solid black 2px;
+    padding: 3px;
+    gap: 4px;
+}
+
