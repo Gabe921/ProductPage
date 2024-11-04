@@ -1,3 +1,14 @@
+html {
+    height:100%;
+}
+
+body {
+    background-image: radial-gradient(#d4bb94,red);
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+
 .title {
     text-align: center;
     text-decoration: underline;
@@ -6,12 +17,48 @@
 }
 
 .intro {
-    margin:40px auto 40px auto;
+    margin:auto;
     display: flex;
-    width:500px;
     justify-content: center;
     border:solid black 2px;
     padding: 3px;
     gap: 4px;
+    width:400px;
+    background-color:white;
 }
 
+.compare {
+    display: flex;
+    border:solid black 2px;
+    padding:3px;
+    justify-content: center;
+    flex-direction: column  ;
+    margin:auto;
+    background-color:white;
+}
+
+.top {
+    display: flex;
+    gap: 100px;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.middle {
+    display:flex;
+    gap: 100px;
+    align-content: stretch;
+}
+
+.desc {
+    background-color:white;
+    display:flex;
+    border:solid black 2px;
+    margin:40px auto 40px auto;
+    padding:3px;
+    flex-direction: column;
+}
+
+#bonus {
+    font-style: italic;
+}
