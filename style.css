@@ -1,13 +1,21 @@
 html {
-    height:100%;
+    height:109z%;
 }
 
 body {
     background-image: radial-gradient(#d4bb94,red);
     background-repeat: no-repeat;
-    height:100%;
+    background-size: cover;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width:200px;
+    border:solid black 2px;
+    margin:0px auto 40px auto;
+}
 
 .title {
     text-align: center;
@@ -25,6 +33,11 @@ body {
     gap: 4px;
     width:400px;
     background-color:white;
+}
+
+.sigma {
+    margin-top:40px;
+    border:solid black 2px;
 }
 
 .compare {
@@ -46,7 +59,7 @@ body {
 
 .middle {
     display:flex;
-    gap: 100px;
+    gap: 10px;
     align-content: stretch;
 }
 
@@ -54,11 +67,39 @@ body {
     background-color:white;
     display:flex;
     border:solid black 2px;
-    margin:40px auto 40px auto;
+    margin-top: 40px;
     padding:3px;
     flex-direction: column;
 }
 
 #bonus {
     font-style: italic;
+}
+
+.nutrition {
+    background-color: white;
+    display: flex;
+    border: solid black 2px;
+    padding: 3px;
+    flex-direction: column;
+    width: 2000px;
+    margin-top: 40px;
+}
+
+table {
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  text-align: center;
+}
+
+#liststart {
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
 }
